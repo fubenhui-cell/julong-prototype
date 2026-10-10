@@ -519,3 +519,6 @@ button.discard{color:var(--warn);border-color:#f3dcb0;margin:-4px 0 14px}button.
 .emp-rail .cal-pop{left:-90px;right:auto}
 @media(max-width:700px){.kbd-hint{display:none}.cal-pop{right:-10px}}
 .task-days .cal-open{min-width:72px}
+.nudge-cell{white-space:nowrap;text-align:right}.nudge-cell .mini{margin-right:8px}.nudge-cell .small{padding:4px 10px}
+.nudge-box{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;background:var(--warn-bg);border-left:3px solid #d08a2c;border-radius:6px;padding:8px 10px;font-size:13px;line-height:1.6;margin:6px 0}.nudge-box .link-button{flex-shrink:0}
+.task-card.nudged{box-shadow:inset 3px 0 #d08a2c;padding-left:10px}
